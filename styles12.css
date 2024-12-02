@@ -1,0 +1,257 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC; /* Fondo beige claro */
+    color: #006400; /* Texto principal en verde oscuro */
+  }
+  .titulo-mision {
+            color: #006400; /* Color verde oscuro */
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center; /* Centrar el texto */
+        }
+        
+ .centrar-imagen {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+  /*menu desplegable*/
+  .paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #4CAF50;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #4CAF50;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4CAF50;
+    color: #212121;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #212121;
+    color: #4CAF50;
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+  
+  .header {
+    background-color: #006400; /* Fondo verde oscuro para el encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Alinear elementos en los extremos */
+    align-items: center; /* Centrar elementos verticalmente */
+  }
+  
+  .main {
+    background-color: #F5F5DC; /* Contenido principal */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido horizontalmente */
+    text-align: center; /* Centrar el texto dentro de la sección */
+    min-height: 100vh; /* Asegurar que la sección ocupe al menos el 100% de la altura de la ventana */
+    background-size: cover; /* Ajustar la imagen de fondo al tamaño de la sección */
+  }
+  
+  
+  /* Barra menu */
+  .tableline {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .tableline a {
+    color: #b0efa5; /* Color café oscuro */
+    text-decoration: none;
+  }
+  
+  .tableline a:hover {
+    color: #eaefea; /* Color verde oscuro al pasar el mouse */
+  }
+  
+  /* Barra menu 2 */
+  .tableline2 {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    background-color: #e6962e; /* Color café pastel */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .tableline2 a {
+    color: #f6f608; /* Color café oscuro */
+    text-decoration: none;
+  }
+  
+  .tableline2 a:hover {
+    color: #006400; /* Color verde oscuro al pasar el mouse */
+  }
+  
+  /* tabla 1 */
+  .table1 {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #8B4513; /* Fondo marrón tierra para el pie de página */
+    padding: 20px;
+    color: #FFFFFF; /* Texto en blanco */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .footer .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .legal {
+    background-color: #8B4513; /* Fondo marrón tierra para el área legal */
+    padding: 20px;
+    color: #333333; /* Texto en color regular */
+  }
+  
+  .legal ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .legal ul li {
+    margin-bottom: 10px;
+  }
+  
+  .legal ul li a {
+    color: #f1c19e; /* Color de enlaces */
+    text-decoration: none;
+  }
+  
+  .legal ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .legal p {
+    margin-top: 10px;
+    color: #f1c19e; /* Color de texto para derechos de autor */
+  }
+  /* Estilos para los botones de editar datos */
+    .learn-more {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 600;
+        color: #382b22;
+        text-transform: uppercase;
+        padding: 1.25em 2em;
+        background: #bedda9;
+        border: 2px solid #caf195;
+        border-radius: 0.75em;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    .learn-more::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #b1e6c7;
+        border-radius: inherit;
+        -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+        box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+        -webkit-transform: translate3d(0, 0.75em, -1em);
+        transform: translate3d(0, 0.75em, -1em);
+        transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    .learn-more:hover {
+        background: #ffe9e9;
+        -webkit-transform: translate(0, 0.25em);
+        transform: translate(0, 0.25em);
+    }
+
+    .learn-more:hover::before {
+        -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+        box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+        -webkit-transform: translate3d(0, 0.5em, -1em);
+        transform: translate3d(0, 0.5em, -1em);
+    }
+
+    .learn-more:active {
+        background: #ffe9e9;
+        -webkit-transform: translate(0em, 0.75em);
+        transform: translate(0em, 0.75em);
+    }
+
+    .learn-more:active::before {
+        -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+        box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+        -webkit-transform: translate3d(0, 0, -1em);
+        transform: translate3d(0, 0, -1em);
+    }
+  

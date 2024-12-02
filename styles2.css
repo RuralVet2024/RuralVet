@@ -1,0 +1,131 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC; /* Fondo beige claro */
+    color: #006400; /* Texto principal en verde oscuro */
+  }
+ 
+  .main {
+    background-color: #F5F5DC; /* Contenido principal */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido horizontalmente */
+    text-align: center; /* Centrar el texto dentro de la sección */
+    min-height: 100vh; /* Asegurar que la sección ocupe al menos el 100% de la altura de la ventana */
+  }
+  
+  .logo {
+    padding: 10px;
+    max-width: 20%;
+    height: auto;
+  }
+  
+  /* Barra menu */
+  .tableline {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .tableline a {
+    color: #b0efa5; /* Color café oscuro */
+    text-decoration: none;
+  }
+  
+  .tableline a:hover {
+    color: #eaefea; /* Color verde oscuro al pasar el mouse */
+  }
+  
+  /* Barra menu 2 */
+  .tableline2 {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    background-color: #e6962e; /* Color café pastel */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .tableline2 a {
+    color: #f6f608; /* Color café oscuro */
+    text-decoration: none;
+  }
+  
+  .tableline2 a:hover {
+    color: #006400; /* Color verde oscuro al pasar el mouse */
+  }
+  
+  /* tabla 1 */
+  .table1 {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center; /* Centrar el texto */
+    width: 100%;
+    padding: 20px;
+  }
+  .table1 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table1 td {
+    padding: 50px;
+    text-align: justify;
+  }
+  .titulo-dinamico {
+    font-size: 3em;
+    color: #333;
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  .footer {
+    background-color: #8B4513; /* Fondo marrón tierra para el pie de página */
+    padding: 20px;
+    color: #FFFFFF; /* Texto en blanco */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .footer .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .legal {
+    background-color: #8B4513; /* Fondo marrón tierra para el área legal */
+    padding: 20px;
+    color: #333333; /* Texto en color regular */
+  }
+  
+  .legal ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .legal ul li {
+    margin-bottom: 10px;
+  }
+  
+  .legal ul li a {
+    color: #f1c19e; /* Color de enlaces */
+    text-decoration: none;
+  }
+  
+  .legal ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .legal p {
+    margin-top: 10px;
+    color: #f1c19e; /* Color de texto para derechos de autor */
+  }
+ .titulo-dinamico {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #emoticono-animal {
+            margin-left: 10px;
+        }  

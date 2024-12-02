@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC; /* Fondo beige claro */
+    color: #006400; /* Texto principal en verde oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centrar-imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Inicio de sesiono */
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .logo {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
+      color: #188c04ec;
+      font-weight: 700;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      background: #c3e986;
+      padding: 1.5rem 1rem;
+      width: 300px;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+    
+    form input {
+      outline: none;
+      padding: 0.4rem 0.5rem;
+      margin-bottom: 0.8rem;
+      font-size: 0.9rem;
+    }
+    
+    form input:focus {
+      border: 1.8px solid #d58001;
+    }
+    
+    form .login {
+      outline: none;
+      border: none;
+      background: #d59b43;
+      padding: 0.8rem 1rem;
+      border-radius: 0.4rem;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+    
+    form .login:hover {
+      background: #ebc791;
+      cursor: pointer;
+    }
+    
+    form a {
+      text-decoration: none;
+      text-align: center;
+      font-size: 0.9rem;
+      padding-top: 0.8rem;
+      color: #0b0b0b;
+    }
+    
+    form hr {
+      background: #f7f7f7;
+      margin: 0.5rem;
+    }
+    
+    form .create-account {
+      outline: none;
+      border: none;
+      background: #06b909;
+      padding: 0.8rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.9rem;
+      color: #fff;
+      width: 75%;
+      margin: 0 auto;
+    }
+    
+    form .create-account:hover {
+      background: #03ad06;
+      cursor: pointer;
+    }
+  
+  .grande {
+    width: 150%;
+    height: 150%;
+  }

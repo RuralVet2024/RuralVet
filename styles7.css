@@ -1,0 +1,273 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5DC; /* Fondo beige claro */
+  color: #006400; /* Texto principal en verde oscuro */
+}
+/*menu desplegable*/
+.paste-button {
+  position: relative;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: #212121;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+  background-color: #212121;
+  border: 2px solid #4CAF50;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #4CAF50;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+  background-color: #4CAF50;
+  color: #212121;
+}
+
+.dropdown-content a:focus {
+  background-color: #212121;
+  color: #4CAF50;
+}
+
+.dropdown-content #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  background-color: #006400; /* Fondo verde oscuro para el encabezado */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Alinear elementos en los extremos */
+  align-items: center; /* Centrar elementos verticalmente */
+}
+
+.main {
+  background-color: #F5F5DC; /* Contenido principal */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Alinear elementos verticalmente */
+  justify-content: center; /* Centrar contenido verticalmente */
+  align-items: center; /* Centrar contenido horizontalmente */
+  text-align: center; /* Centrar el texto dentro de la sección */
+  min-height: 100vh; /* Asegurar que la sección ocupe al menos el 100% de la altura de la ventana */
+}
+
+.logo {
+  padding: 10px;
+  max-width: 20%;
+  height: auto;
+}
+
+/* Barra menu */
+.tableline {
+  display: flex;
+  justify-content: center; /* Centrar elementos horizontalmente */
+  align-items: center; /* Centrar elementos verticalmente */
+  text-align: center; /* Centrar el texto */
+  width: 100%;
+  padding: 20px;
+}
+
+.tableline a {
+  color: #b0efa5; /* Color café oscuro */
+  text-decoration: none;
+}
+
+.tableline a:hover {
+  color: #eaefea; /* Color verde oscuro al pasar el mouse */
+}
+
+/* Barra menu 2 */
+.tableline2 {
+  display: flex;
+  justify-content: center; /* Centrar elementos horizontalmente */
+  align-items: center; /* Centrar elementos verticalmente */
+  text-align: center; /* Centrar el texto */
+  background-color: #e6962e; /* Color café pastel */
+  width: 100%;
+  padding: 20px;
+}
+
+.tableline2 a {
+  color: #f6f608; /* Color café oscuro */
+  text-decoration: none;
+}
+
+.tableline2 a:hover {
+  color: #006400; /* Color verde oscuro al pasar el mouse */
+}
+
+@keyframes colorChange {
+  0% { color: #A0522D; font-family: 'Courier New'; }
+  25% { color: #6B8E23; font-family: 'Courier New'; }
+  50% { color: #CD853F; font-family: 'Courier New'; }
+  75% { color: #8FBC8F; font-family: 'Courier New'; }
+  100% { color: #A0522D; font-family: 'Courier New'; }
+}
+
+.color-changing-title {
+  font-size: 3em;
+  animation: colorChange 5s infinite;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-container p {
+  margin-bottom: 1.5em;
+}
+.contact-info p {
+  margin-bottom: 2em;
+}
+.footer {
+  background-color: #8B4513; /* Fondo marrón tierra para el pie de página */
+  padding: 20px;
+  color: #FFFFFF; /* Texto en blanco */
+  text-align: center; /* Centrar el texto */
+}
+
+.footer .footer-info p {
+  margin: 5px 0;
+}
+
+.legal {
+  background-color: #8B4513; /* Fondo marrón tierra para el área legal */
+  padding: 20px;
+  color: #333333; /* Texto en color regular */
+}
+
+.legal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legal ul li {
+  margin-bottom: 10px;
+}
+
+.legal ul li a {
+  color: #f1c19e; /* Color de enlaces */
+  text-decoration: none;
+}
+
+.legal ul li a:hover {
+  text-decoration: underline;
+}
+
+.legal p {
+  margin-top: 10px;
+  color: #f1c19e; /* Color de texto para derechos de autor */
+}
+ .video-table {
+            margin-left: 80px; /* Margen izquierdo */
+        }
+
+        .contact-container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .contact-container p {
+            margin-bottom: 1.5em;
+            text-align: justify;
+        }
+
+        .contact-info p {
+            margin-bottom: 2em;
+            text-align: justify;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .video-item {
+            flex: 0 0 45%;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .video-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .video-item p {
+            margin: 0;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .video-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .video-item {
+                flex: 0 0 100%;
+                margin: 10px 0;
+            }
+
+            .video-item img {
+                max-width: 100%;
+            }
+        }
+ .titulo-mision {
+            color: #006400; /* Color verde oscuro */
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center; /* Centrar el texto */
+            width: 100%; /* Asegura que el texto esté centrado */
+        }
